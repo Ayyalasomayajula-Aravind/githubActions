@@ -10,5 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Print Message
+      - name: Message
         run: echo "Hello, World!"
+      - name: Say Hi
+        run: echo "Hey Hi!"
